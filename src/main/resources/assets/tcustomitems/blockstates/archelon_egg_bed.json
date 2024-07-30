@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "tcustomitems:block/archelon_egg_bed" },
+    "facing=east": { "model": "tcustomitems:block/archelon_egg_bed", "y": 90 },
+    "facing=south": { "model": "tcustomitems:block/archelon_egg_bed", "y": 180 },
+    "facing=west": { "model": "tcustomitems:block/archelon_egg_bed", "y": 270 }
+  }
+}

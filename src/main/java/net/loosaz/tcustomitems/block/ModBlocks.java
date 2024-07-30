@@ -1,8 +1,7 @@
 package net.loosaz.tcustomitems.block;
 
 import net.loosaz.tcustomitems.TCustomItems;
-import net.loosaz.tcustomitems.block.custom.PiauEggBed;
-import net.loosaz.tcustomitems.block.custom.SoniaEggBed;
+import net.loosaz.tcustomitems.block.custom.EggBed;
 import net.loosaz.tcustomitems.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -22,11 +21,17 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, TCustomItems.MOD_ID);
 
     public static final RegistryObject<Block> PIAU_EGG_BED = registerBlock("piau_egg_bed",
-            () -> new PiauEggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape().noParticlesOnBreak()));
+            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
     public static final RegistryObject<Block> SONIA_EGG_BED = registerBlock("sonia_egg_bed",
-            () -> new SoniaEggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape().noParticlesOnBreak()));
+            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
     public static final RegistryObject<Block> TEXAS_EGG_BED = registerBlock("texas_egg_bed",
-            () -> new SoniaEggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape().noParticlesOnBreak()));
+            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
+    public static final RegistryObject<Block> BLACKSTAR_EGG_BED = registerBlock("blackstar_egg_bed",
+            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
+    public static final RegistryObject<Block> ARCHELON_EGG_BED = registerBlock("archelon_egg_bed",
+            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
+    public static final RegistryObject<Block> HAZEL_EGG_BED = registerBlock("hazel_egg_bed",
+            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

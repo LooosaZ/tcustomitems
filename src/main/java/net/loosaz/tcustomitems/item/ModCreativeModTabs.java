@@ -19,11 +19,15 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
                     .title(Component.translatable("creativetab.tsmp_custom_items"))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModItems.SAPPHIRE.get());
 
+                        pOutput.accept(ModBlocks.ARCHELON_EGG_BED.get());
+                        pOutput.accept(ModBlocks.BLACKSTAR_EGG_BED.get());
+                        pOutput.accept(ModBlocks.HAZEL_EGG_BED.get());
                         pOutput.accept(ModBlocks.PIAU_EGG_BED.get());
                         pOutput.accept(ModBlocks.SONIA_EGG_BED.get());
                         pOutput.accept(ModBlocks.TEXAS_EGG_BED.get());
+
+                        pOutput.accept(ModItems.SAPPHIRE.get());
 
                     })
                     .build());
