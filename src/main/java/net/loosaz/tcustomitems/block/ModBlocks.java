@@ -20,6 +20,7 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, TCustomItems.MOD_ID);
 
+    //block registry
     public static final RegistryObject<Block> PIAU_EGG_BED = registerBlock("piau_egg_bed",
             () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
     public static final RegistryObject<Block> SONIA_EGG_BED = registerBlock("sonia_egg_bed",
@@ -31,6 +32,12 @@ public class ModBlocks {
     public static final RegistryObject<Block> ARCHELON_EGG_BED = registerBlock("archelon_egg_bed",
             () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
     public static final RegistryObject<Block> HAZEL_EGG_BED = registerBlock("hazel_egg_bed",
+            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
+    public static final RegistryObject<Block> DARLING_EGG_BED = registerBlock("darling_egg_bed",
+            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
+    public static final RegistryObject<Block> KILLEE_EGG_BED = registerBlock("killee_egg_bed",
+            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
+    public static final RegistryObject<Block> LEIA_EGG_BED = registerBlock("leia_egg_bed",
             () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
 
 
