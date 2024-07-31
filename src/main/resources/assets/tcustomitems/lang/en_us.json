@@ -1,5 +1,11 @@
 {
   "item.tcustomitems.sapphire": "Sapphire",
+  "item.tcustomitems.loosaz_sword": "§6§lThe Gate Guardian Blade",
+  "item.tcustomitems.loosaz_helmet": "Guardian Helmet",
+  "item.tcustomitems.loosaz_chestplate": "Guardian Chestplate",
+  "item.tcustomitems.loosaz_leggings": "Guardian Leggings",
+  "item.tcustomitems.loosaz_boots": "Guardian Boots",
+
 
 
   "block.tcustomitems.piau_egg_bed": "Piau's Egg Bed",
@@ -13,5 +19,6 @@
   "block.tcustomitems.leia_egg_bed": "Leia's Egg Bed",
 
 
-  "creativetab.tsmp_custom_items": "TSMP Custom Items"
+  "creativetab.tsmp_custom_beds": "TSMP Egg Beds",
+  "creativetab.tsmp_custom_items": "TSMP Items"
 }

@@ -3,7 +3,8 @@
 	"texture_size": [128, 128],
 	"textures": {
 		"1": "tcustomitems:block/piau_egg_bed",
-		"particle": "minecraft:block/oak_planks"
+		"particle": "minecraft:block/oak_planks",
+		"render_type": "minecraft:cutout"
 	},
 	"elements": [
 		{
@@ -2056,12 +2057,6 @@
 					]
 				}
 			]
-		},
-		{
-			"name": "VoxelShapes",
-			"origin": [8, 8, 8],
-			"color": 0,
-			"children": []
 		}
 	]
 }

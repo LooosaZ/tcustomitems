@@ -3,7 +3,8 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"1": "tcustomitems:block/texas_egg_bed",
-		"particle": "minecraft:block/oak_planks"
+		"particle": "minecraft:block/oak_planks",
+		"render_type": "minecraft:cutout"
 	},
 	"elements": [
 		{
@@ -1411,7 +1412,7 @@
 		{
 			"name": "New Cube (3)",
 			"from": [4, 18, -13],
-			"to": [12, 18.5, -12],
+			"to": [12, 18.7, -12],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 14, -11]},
 			"faces": {
 				"north": {"uv": [15.5, 15.75, 15.25, 16], "texture": "#1"},
