@@ -22,23 +22,25 @@ public class ModBlocks {
 
     //block registry
     public static final RegistryObject<Block> PIAU_EGG_BED = registerBlock("piau_egg_bed",
-            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.GLASS).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
+            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
     public static final RegistryObject<Block> SONIA_EGG_BED = registerBlock("sonia_egg_bed",
-            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.GLASS).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
+            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
     public static final RegistryObject<Block> TEXAS_EGG_BED = registerBlock("texas_egg_bed",
-            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.GLASS).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
+            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
     public static final RegistryObject<Block> BLACKSTAR_EGG_BED = registerBlock("blackstar_egg_bed",
-            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.GLASS).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
+            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
     public static final RegistryObject<Block> ARCHELON_EGG_BED = registerBlock("archelon_egg_bed",
-            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.GLASS).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
+            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
     public static final RegistryObject<Block> HAZEL_EGG_BED = registerBlock("hazel_egg_bed",
-            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.GLASS).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
+            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
     public static final RegistryObject<Block> DARLING_EGG_BED = registerBlock("darling_egg_bed",
-            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.GLASS).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
+            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
     public static final RegistryObject<Block> KILLEE_EGG_BED = registerBlock("killee_egg_bed",
-            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.GLASS).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
+            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
     public static final RegistryObject<Block> LEIA_EGG_BED = registerBlock("leia_egg_bed",
-            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.GLASS).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
+            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
+    public static final RegistryObject<Block> MADELINE_EGG_BED = registerBlock("madeline_egg_bed",
+            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED).noOcclusion().dynamicShape()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

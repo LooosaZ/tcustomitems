@@ -30,6 +30,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.DARLING_EGG_BED.get());
                         pOutput.accept(ModBlocks.KILLEE_EGG_BED.get());
                         pOutput.accept(ModBlocks.LEIA_EGG_BED.get());
+                        pOutput.accept(ModBlocks.MADELINE_EGG_BED.get());
 
                     })
                     .build());

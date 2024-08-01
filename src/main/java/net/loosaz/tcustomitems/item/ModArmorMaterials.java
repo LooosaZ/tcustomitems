@@ -11,8 +11,8 @@ import net.minecraftforge.client.model.IModelBuilder;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    SAPPHIRE("loosaz",26, new int[]{ 999, 999, 999, 999 }, 25,
-            SoundEvents.ARMOR_EQUIP_NETHERITE, 999f, 999f, () -> Ingredient.of(ModItems.SAPPHIRE.get()));
+    SAPPHIRE("loosaz",26, new int[]{ 7, 10, 9, 6 }, 25,
+            SoundEvents.ARMOR_EQUIP_NETHERITE, 5f, 0.2f, () -> Ingredient.of(ModItems.SAPPHIRE.get()));
 
     private final String name;
     private final int durabilityMultiplier;

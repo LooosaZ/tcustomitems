@@ -49,6 +49,7 @@ public class TCustomItems {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.HAZEL_EGG_BED.get(),RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.KILLEE_EGG_BED.get(),RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.LEIA_EGG_BED.get(),RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.MADELINE_EGG_BED.get(),RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.PIAU_EGG_BED.get(),RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.SONIA_EGG_BED.get(),RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.TEXAS_EGG_BED.get(),RenderType.translucent());

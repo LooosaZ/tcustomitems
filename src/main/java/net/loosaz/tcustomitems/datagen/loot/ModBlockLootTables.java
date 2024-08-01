@@ -29,6 +29,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.BLACKSTAR_EGG_BED.get());
         this.dropSelf(ModBlocks.HAZEL_EGG_BED.get());
         this.dropSelf(ModBlocks.PIAU_EGG_BED.get());
+        this.dropSelf(ModBlocks.MADELINE_EGG_BED.get());
         this.dropSelf(ModBlocks.SONIA_EGG_BED.get());
         this.dropSelf(ModBlocks.TEXAS_EGG_BED.get());
         this.dropSelf(ModBlocks.DARLING_EGG_BED.get());

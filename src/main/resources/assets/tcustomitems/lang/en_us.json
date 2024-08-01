@@ -1,6 +1,6 @@
 {
   "item.tcustomitems.sapphire": "Sapphire",
-  "item.tcustomitems.loosaz_sword": "§6§lThe Gate Guardian Blade",
+  "item.tcustomitems.loosaz_sword": "§4§lResurrection of Evil",
   "item.tcustomitems.loosaz_helmet": "Guardian Helmet",
   "item.tcustomitems.loosaz_chestplate": "Guardian Chestplate",
   "item.tcustomitems.loosaz_leggings": "Guardian Leggings",
@@ -17,6 +17,7 @@
   "block.tcustomitems.darling_egg_bed": "Darling's Egg Bed",
   "block.tcustomitems.killee_egg_bed": "Killee's Egg Bed",
   "block.tcustomitems.leia_egg_bed": "Leia's Egg Bed",
+  "block.tcustomitems.madeline_egg_bed": "Madeline's Egg Bed",
 
 
   "creativetab.tsmp_custom_beds": "TSMP Egg Beds",
