@@ -1,7 +1,6 @@
 
 # THIS REPOSITORY IS MOST LIKELY USELESS TO YOU. 
-# IF YOU'RE LOOKING FOR TEMPLATES TO ADD ITEMS INTO THE GAME, 
-# PLEASE CHECK [Modding by Kaupenjoe](https://www.youtube.com/watch?v=55qUIf3GMss&list=PLKGarocXCE1H9Y21-pxjt5Pt8bW14twa-)
+### IF YOU'RE LOOKING FOR TEMPLATES TO ADD ITEMS INTO THE GAME, PLEASE CHECK [Modding by Kaupenjoe](https://www.youtube.com/watch?v=55qUIf3GMss&list=PLKGarocXCE1H9Y21-pxjt5Pt8bW14twa-)
 
 Source installation information for modders
 -------------------------------------------
@@ -34,17 +33,18 @@ If at any point you are missing libraries in your IDE, or you've run into proble
 run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything
 {this does not affect your code} and then start the process again.
 
-Mapping Names:
+Parchment:
 =============================
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license, if you do not agree with it you can change your mapping names to other crowdsourced names in your
-build.gradle. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
+Parchment is an open community-sourced modloader-neutral set of mappings of parameter names and javadocs, 
+to augment the official names released by Mojang. 
+This repository contains the files which make up the Parchment mapping set, 
+with the build tool to manage the mappings and generate exports for publishing.
+https://github.com/ParchmentMC/Parchment
 
 Additional Resources:
 =========================
 Community Documentation: http://mcforge.readthedocs.io/en/latest/gettingstarted/  
 LexManos' Install Video: https://www.youtube.com/watch?v=8VEdtQLuLO0  
 Forge Forum: https://forums.minecraftforge.net/  
-Forge Discord: https://discord.gg/UvedJ9m  
+Forge Discord: https://discord.gg/UvedJ9m
+TSMP Discord: https://discord.gg/qqkxzfyXng
