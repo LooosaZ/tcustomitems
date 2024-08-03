@@ -1,6 +1,6 @@
 {
   "item.tcustomitems.sapphire": "Sapphire",
-  "item.tcustomitems.loosaz_sword": "§4§lResurrection of Evil",
+  "item.tcustomitems.loosaz_sword_1": "§4§lResurrection of Evil",
   "item.tcustomitems.loosaz_helmet": "Guardian Helmet",
   "item.tcustomitems.loosaz_chestplate": "Guardian Chestplate",
   "item.tcustomitems.loosaz_leggings": "Guardian Leggings",
@@ -18,6 +18,9 @@
   "block.tcustomitems.killee_egg_bed": "Killee's Egg Bed",
   "block.tcustomitems.leia_egg_bed": "Leia's Egg Bed",
   "block.tcustomitems.madeline_egg_bed": "Madeline's Egg Bed",
+  "block.tcustomitems.nicki_egg_bed": "Nicki's Egg Bed",
+  "block.tcustomitems.puca_egg_bed": "Puca's Egg Bed",
+  "block.tcustomitems.pastel_egg_bed": "Pastel's Egg Bed",
 
 
   "creativetab.tsmp_custom_beds": "TSMP Egg Beds",

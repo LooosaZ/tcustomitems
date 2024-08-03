@@ -3,8 +3,7 @@
 	"texture_size": [128, 128],
 	"textures": {
 		"1": "tcustomitems:block/piau_egg_bed",
-		"particle": "minecraft:block/oak_planks",
-		"render_type": "minecraft:cutout"
+		"particle": "block/oak_planks"
 	},
 	"elements": [
 		{
@@ -1573,20 +1572,6 @@
 			}
 		},
 		{
-			"name": "SmallPiece1",
-			"from": [4.24806, 18.01296, -12.91119],
-			"to": [5.24806, 22.01296, -11.91119],
-			"rotation": {"angle": -22.5, "axis": "z", "origin": [5.875, 13.6, -9.91119]},
-			"faces": {
-				"north": {"uv": [6.125, 15.875, 6.25, 15.375], "rotation": 180, "texture": "#1"},
-				"east": {"uv": [6, 16, 5.5, 15.875], "rotation": 90, "texture": "#1"},
-				"south": {"uv": [6, 15.375, 6.125, 15.875], "texture": "#1"},
-				"west": {"uv": [6.625, 16, 6.125, 15.875], "rotation": 270, "texture": "#1"},
-				"up": {"uv": [6, 15.875, 6.125, 16], "rotation": 180, "texture": "#1"},
-				"down": {"uv": [6.625, 15.875, 6.75, 16], "texture": "#1"}
-			}
-		},
-		{
 			"name": "SmallCube1",
 			"from": [4.24806, 15.01296, -12.91119],
 			"to": [5.24806, 16.01296, -11.91119],
@@ -1598,20 +1583,6 @@
 				"west": {"uv": [5.5, 15.875, 5.375, 15.75], "rotation": 180, "texture": "#1"},
 				"up": {"uv": [5.375, 15.75, 5.5, 15.875], "rotation": 180, "texture": "#1"},
 				"down": {"uv": [5.375, 15.75, 5.5, 15.875], "rotation": 180, "texture": "#1"}
-			}
-		},
-		{
-			"name": "SmallPiece2",
-			"from": [8.03267, 18.01296, -12.91119],
-			"to": [9.03267, 22.01296, -11.91119],
-			"rotation": {"angle": -22.5, "axis": "z", "origin": [5.875, 13.6, -9.91119]},
-			"faces": {
-				"north": {"uv": [6.25, 15.875, 6.125, 15.375], "rotation": 180, "texture": "#1"},
-				"east": {"uv": [6.125, 16, 6.625, 15.875], "rotation": 90, "texture": "#1"},
-				"south": {"uv": [6.125, 15.375, 6, 15.875], "texture": "#1"},
-				"west": {"uv": [5.5, 16, 6, 15.875], "rotation": 270, "texture": "#1"},
-				"up": {"uv": [6.125, 15.875, 6, 16], "rotation": 180, "texture": "#1"},
-				"down": {"uv": [6.75, 15.875, 6.625, 16], "texture": "#1"}
 			}
 		},
 		{
@@ -1654,20 +1625,6 @@
 				"west": {"uv": [5.5, 15.875, 5.375, 15.75], "rotation": 270, "texture": "#1"},
 				"up": {"uv": [5.375, 15.75, 5.5, 15.875], "rotation": 270, "texture": "#1"},
 				"down": {"uv": [5.375, 15.75, 5.5, 15.875], "rotation": 270, "texture": "#1"}
-			}
-		},
-		{
-			"name": "SmallPiece4",
-			"from": [13.875, 11.28881, -12.91119],
-			"to": [17.875, 12.28881, -11.91119],
-			"rotation": {"angle": -22.5, "axis": "z", "origin": [5.875, 13.6, -9.91119]},
-			"faces": {
-				"north": {"uv": [7.75, 15.625, 7.25, 15.5], "rotation": 180, "texture": "#1"},
-				"east": {"uv": [7.25, 15.75, 7.375, 15.625], "rotation": 90, "texture": "#1"},
-				"south": {"uv": [7.25, 15.5, 6.75, 15.625], "texture": "#1"},
-				"west": {"uv": [6.625, 15.75, 6.75, 15.625], "rotation": 270, "texture": "#1"},
-				"up": {"uv": [7.25, 15.625, 6.75, 15.75], "rotation": 180, "texture": "#1"},
-				"down": {"uv": [7.875, 15.625, 7.375, 15.75], "texture": "#1"}
 			}
 		},
 		{
@@ -1742,8 +1699,8 @@
 		},
 		{
 			"name": "Crack5",
-			"from": [2.26119, 10.1, -10.38881],
-			"to": [2.56119, 17, -6.38881],
+			"from": [2.5, 10.1, -10.38881],
+			"to": [2.8, 17, -6.38881],
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 14, -9.38881]},
 			"faces": {
 				"north": {"uv": [14.125, 10.625, 12.375, 10.75], "rotation": 270, "texture": "#1"},
@@ -2023,28 +1980,28 @@
 									"origin": [-3.875, -7.99377, 0.51332],
 									"rotation": [0, 0, 30],
 									"color": 0,
-									"children": [118, 119]
+									"children": [118]
 								},
 								{
 									"name": "SmallPieceP2",
 									"origin": [-3.875, -7.99377, 0.51332],
 									"rotation": [0, 0, 30],
 									"color": 0,
-									"children": [120, 121]
+									"children": [119]
 								},
 								{
 									"name": "SmallPieceP3",
 									"origin": [-7.25, -14.76764, 0.51332],
 									"rotation": [0, 0, 90],
 									"color": 0,
-									"children": [122, 123]
+									"children": [120, 121]
 								},
 								{
 									"name": "SmallPieceP4",
 									"origin": [-7.25, -14.76764, 0.51332],
 									"rotation": [0, 0, 90],
 									"color": 0,
-									"children": [124, 125]
+									"children": [122]
 								}
 							]
 						},
@@ -2052,7 +2009,7 @@
 							"name": "Cracks",
 							"origin": [-1, 10, 1],
 							"color": 0,
-							"children": [126, 127, 128, 129, 130, 131, 132, 133, 134, 135]
+							"children": [123, 124, 125, 126, 127, 128, 129, 130, 131, 132]
 						}
 					]
 				}

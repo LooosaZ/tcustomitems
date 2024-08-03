@@ -3,7 +3,7 @@
 	"texture_size": [100, 100],
 	"textures": {
 		"1": "tcustomitems:block/killee_egg_bed",
-		"particle": "minecraft:block/oak_planks"
+		"particle": "block/oak_planks"
 	},
 	"elements": [
 		{
@@ -1306,19 +1306,6 @@
 			}
 		},
 		{
-			"name": "New Cube",
-			"from": [-1, 14, 0],
-			"to": [0, 15, 1],
-			"faces": {
-				"north": {"uv": [0.16, 0.16, 0.32, 0.32], "texture": "#1"},
-				"east": {"uv": [0, 0.16, 0.16, 0.32], "texture": "#1"},
-				"south": {"uv": [0.48, 0.16, 0.64, 0.32], "texture": "#1"},
-				"west": {"uv": [0.32, 0.16, 0.48, 0.32], "texture": "#1"},
-				"up": {"uv": [0.32, 0.16, 0.16, 0], "texture": "#1"},
-				"down": {"uv": [0.48, 0, 0.32, 0.16], "texture": "#1"}
-			}
-		},
-		{
 			"name": "crack 1 (3)",
 			"from": [1, 6, 5],
 			"to": [2, 7, 5],
@@ -1329,19 +1316,6 @@
 				"west": {"uv": [0, 0, 0, 0], "texture": "#1"},
 				"up": {"uv": [0, 0, 0, 0], "texture": "#1"},
 				"down": {"uv": [0, 0, 0, 0], "texture": "#1"}
-			}
-		},
-		{
-			"name": "crack 1 (3)",
-			"from": [-2, 5.91, 4],
-			"to": [-1, 5.91, 5],
-			"faces": {
-				"north": {"uv": [0, 0, 0, 0], "texture": "#1"},
-				"east": {"uv": [0, 0, 0, 0], "texture": "#1"},
-				"south": {"uv": [0, 0, 0, 0], "texture": "#1"},
-				"west": {"uv": [0, 0, 0, 0], "texture": "#1"},
-				"up": {"uv": [9.92, 0.32, 10.24, 0.64], "texture": "#1"},
-				"down": {"uv": [10.24, 0.32, 9.92, 0.64], "texture": "#1"}
 			}
 		},
 		{
@@ -1805,7 +1779,6 @@
 					"origin": [0, 15, 0],
 					"color": 0,
 					"children": [
-						99,
 						{
 							"name": "crack122",
 							"origin": [0, 10, 5],
@@ -1816,25 +1789,25 @@
 							"name": "crack13",
 							"origin": [3, 10, 5],
 							"color": 0,
-							"children": [100]
+							"children": [99]
 						},
 						{
 							"name": "crack131",
 							"origin": [0, 9.91, 5],
 							"color": 0,
-							"children": [101]
+							"children": []
 						},
 						{
 							"name": "crack14",
 							"origin": [4, 9.91, 5],
 							"color": 0,
-							"children": [102]
+							"children": [100]
 						},
 						{
 							"name": "crack141",
 							"origin": [3, 10, 5],
 							"color": 0,
-							"children": [103]
+							"children": [101]
 						},
 						{
 							"name": "crack15",
@@ -1854,73 +1827,73 @@
 							"name": "Brim22",
 							"origin": [-3, 14, -2],
 							"color": 0,
-							"children": [104]
+							"children": [102]
 						},
 						{
 							"name": "Brim32",
 							"origin": [-3, 14, -2],
 							"color": 0,
-							"children": [105]
+							"children": [103]
 						},
 						{
 							"name": "HatBase2",
 							"origin": [-3, 14, -2],
 							"color": 0,
-							"children": [106]
+							"children": [104]
 						},
 						{
 							"name": "Ribbon32",
 							"origin": [-3.5, 15, -2],
 							"color": 0,
-							"children": [107]
+							"children": [105]
 						},
 						{
 							"name": "Ribbon22",
 							"origin": [-4, 15, -9],
 							"color": 0,
-							"children": [108]
+							"children": [106]
 						},
 						{
 							"name": "Ribbon42",
 							"origin": [-4, 15, -17.5],
 							"color": 0,
-							"children": [109]
+							"children": [107]
 						},
 						{
 							"name": "Ribbon12",
 							"origin": [-12, 15, -2],
 							"color": 0,
-							"children": [110]
+							"children": [108]
 						},
 						{
 							"name": "Ribbon52",
 							"origin": [-2, 14.5, -1],
 							"color": 0,
-							"children": [111]
+							"children": [109]
 						},
 						{
 							"name": "Ribbon62",
 							"origin": [-1.7, 14.5, -1],
 							"color": 0,
-							"children": [112]
+							"children": [110]
 						},
 						{
 							"name": "Ribbon72",
 							"origin": [-1.7, 10.5, -1],
 							"color": 0,
-							"children": [113]
+							"children": [111]
 						},
 						{
 							"name": "Brim33",
 							"origin": [-3, 14, -2],
 							"color": 0,
-							"children": [114]
+							"children": [112]
 						},
 						{
 							"name": "Brim12",
 							"origin": [-3, 14, -2],
 							"color": 0,
-							"children": [115]
+							"children": [113]
 						}
 					]
 				},
@@ -1933,49 +1906,49 @@
 							"name": "crack1",
 							"origin": [0, 11, 5],
 							"color": 0,
-							"children": [116]
+							"children": [114]
 						},
 						{
 							"name": "crack12",
 							"origin": [0, 13, 5],
 							"color": 0,
-							"children": [117]
+							"children": [115]
 						},
 						{
 							"name": "crack121",
 							"origin": [0, 11, 5],
 							"color": 0,
-							"children": [118]
+							"children": [116]
 						},
 						{
 							"name": "crack123",
 							"origin": [-1, 11, 5],
 							"color": 0,
-							"children": [119]
+							"children": [117]
 						},
 						{
 							"name": "crack132",
 							"origin": [4, 11, 5],
 							"color": 0,
-							"children": [120]
+							"children": [118]
 						},
 						{
 							"name": "crack133",
 							"origin": [-1, 11, 5],
 							"color": 0,
-							"children": [121]
+							"children": [119]
 						},
 						{
 							"name": "crack142",
 							"origin": [0, 8, 3],
 							"color": 0,
-							"children": [122]
+							"children": [120]
 						},
 						{
 							"name": "crack151",
 							"origin": [0, 8, 3],
 							"color": 0,
-							"children": [123]
+							"children": [121]
 						}
 					]
 				}

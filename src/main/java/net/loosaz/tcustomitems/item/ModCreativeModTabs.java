@@ -23,14 +23,17 @@ public class ModCreativeModTabs {
                         //items that will show up on the creative BEDS_TAB tab
                         pOutput.accept(ModBlocks.ARCHELON_EGG_BED.get());
                         pOutput.accept(ModBlocks.BLACKSTAR_EGG_BED.get());
-                        pOutput.accept(ModBlocks.HAZEL_EGG_BED.get());
-                        pOutput.accept(ModBlocks.PIAU_EGG_BED.get());
-                        pOutput.accept(ModBlocks.SONIA_EGG_BED.get());
-                        pOutput.accept(ModBlocks.TEXAS_EGG_BED.get());
                         pOutput.accept(ModBlocks.DARLING_EGG_BED.get());
+                        pOutput.accept(ModBlocks.HAZEL_EGG_BED.get());
                         pOutput.accept(ModBlocks.KILLEE_EGG_BED.get());
                         pOutput.accept(ModBlocks.LEIA_EGG_BED.get());
                         pOutput.accept(ModBlocks.MADELINE_EGG_BED.get());
+                        pOutput.accept(ModBlocks.PASTEL_EGG_BED.get());
+                        pOutput.accept(ModBlocks.NICKI_EGG_BED.get());
+                        pOutput.accept(ModBlocks.PIAU_EGG_BED.get());
+                        pOutput.accept(ModBlocks.PUCA_EGG_BED.get());
+                        pOutput.accept(ModBlocks.SONIA_EGG_BED.get());
+                        pOutput.accept(ModBlocks.TEXAS_EGG_BED.get());
 
                     })
                     .build());
@@ -42,10 +45,11 @@ public class ModCreativeModTabs {
 
                         //items that will show up on the creative ITEMS_TAB tab
                         pOutput.accept(ModItems.LOOSAZ_SWORD.get());
-                        pOutput.accept(ModItems.LOOSAZ_HELMET.get());
-                        pOutput.accept(ModItems.LOOSAZ_CHESTPLATE.get());
-                        pOutput.accept(ModItems.LOOSAZ_LEGGINGS.get());
-                        pOutput.accept(ModItems.LOOSAZ_BOOTS.get());
+//                        pOutput.accept(ModItems.LOOSAZ_HELMET.get());
+//                        pOutput.accept(ModItems.LOOSAZ_CHESTPLATE.get());
+//                        pOutput.accept(ModItems.LOOSAZ_LEGGINGS.get());
+//                        pOutput.accept(ModItems.LOOSAZ_BOOTS.get());
+//                        pOutput.accept(ModItems.SAPPHIRE.get());
                     })
                     .build());
 

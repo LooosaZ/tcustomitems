@@ -3,8 +3,7 @@
 	"texture_size": [100, 100],
 	"textures": {
 		"1": "tcustomitems:block/hazel_egg_bed",
-		"particle": "minecraft:block/oak_planks",
-		"render_type": "minecraft:cutout"
+		"particle": "block/oak_planks"
 	},
 	"elements": [
 		{
@@ -1445,20 +1444,6 @@
 			}
 		},
 		{
-			"name": "New Cube (3)",
-			"from": [10.67456, 17, -13.47554],
-			"to": [11.17456, 19, -12.97554],
-			"rotation": {"angle": -22.5, "axis": "y", "origin": [11, 17, -14]},
-			"faces": {
-				"north": {"uv": [0, 0, 0, 0.32], "texture": "#1"},
-				"east": {"uv": [0, 0, 0, 0.32], "texture": "#1"},
-				"south": {"uv": [0, 0, 0, 0.32], "texture": "#1"},
-				"west": {"uv": [0, 0, 0, 0.32], "texture": "#1"},
-				"up": {"uv": [0, 0, 0, 0], "texture": "#1"},
-				"down": {"uv": [0, 0, 0, 0], "texture": "#1"}
-			}
-		},
-		{
 			"name": "Fuzz 4 (2)",
 			"from": [7.5699, 20.75456, -14],
 			"to": [11.5699, 24.75456, -14],
@@ -1568,20 +1553,6 @@
 				"west": {"uv": [12, 4.32, 12, 5.28], "texture": "#1"},
 				"up": {"uv": [13.92, 4.32, 12, 4.32], "rotation": 180, "texture": "#1"},
 				"down": {"uv": [15.84, 4.32, 13.92, 4.32], "rotation": 180, "texture": "#1"}
-			}
-		},
-		{
-			"name": "Fluff",
-			"from": [7, 13, -16],
-			"to": [8, 14, -15],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 14, -9]},
-			"faces": {
-				"north": {"uv": [0.16, 0.16, 0.32, 0.32], "texture": "#1"},
-				"east": {"uv": [0, 0.16, 0.16, 0.32], "texture": "#1"},
-				"south": {"uv": [0.48, 0.16, 0.64, 0.32], "texture": "#1"},
-				"west": {"uv": [0.32, 0.16, 0.48, 0.32], "texture": "#1"},
-				"up": {"uv": [0.32, 0.16, 0.16, 0], "texture": "#1"},
-				"down": {"uv": [0.48, 0, 0.32, 0.16], "texture": "#1"}
 			}
 		},
 		{
@@ -2766,7 +2737,6 @@
 									"rotation": [-28, -360, 351],
 									"color": 0,
 									"children": [
-										109,
 										{
 											"name": "NewCube41",
 											"origin": [3, 18, -2.3],
@@ -2784,7 +2754,7 @@
 															"origin": [2.25, 25, -2.05],
 															"rotation": [0, -360, 360],
 															"color": 0,
-															"children": [110]
+															"children": [109]
 														}
 													]
 												},
@@ -2793,7 +2763,7 @@
 													"origin": [2.25, 21, -2.05],
 													"rotation": [0, -360, 360],
 													"color": 0,
-													"children": [111]
+													"children": [110]
 												}
 											]
 										},
@@ -2802,7 +2772,7 @@
 											"origin": [2.25, 19, -2.05],
 											"rotation": [0, -360, 360],
 											"color": 0,
-											"children": [112]
+											"children": [111]
 										}
 									]
 								},
@@ -2811,7 +2781,7 @@
 									"origin": [2.25, 16, -2.05],
 									"rotation": [0, -360, 360],
 									"color": 0,
-									"children": [113]
+									"children": [112]
 								}
 							]
 						},
@@ -2843,7 +2813,7 @@
 															"name": "Fuzz43",
 															"origin": [-2.25, 25, -2.05],
 															"color": 0,
-															"children": [114]
+															"children": [113]
 														}
 													]
 												},
@@ -2851,7 +2821,7 @@
 													"name": "Fuzz33",
 													"origin": [-2.25, 21, -2.05],
 													"color": 0,
-													"children": [115]
+													"children": [114]
 												}
 											]
 										},
@@ -2859,7 +2829,7 @@
 											"name": "Fuzz23",
 											"origin": [-2.25, 19, -2.05],
 											"color": 0,
-											"children": [116]
+											"children": [115]
 										}
 									]
 								},
@@ -2867,7 +2837,7 @@
 									"name": "Fuzz13",
 									"origin": [-2.25, 16, -2.05],
 									"color": 0,
-									"children": [117]
+									"children": [116]
 								}
 							]
 						}
@@ -2880,204 +2850,203 @@
 			"origin": [0, 16, 0],
 			"color": 0,
 			"children": [
-				118,
 				{
 					"name": "NewCube",
 					"origin": [-5.5, 11.5, 2],
 					"color": 0,
-					"children": [119]
+					"children": [117]
 				},
 				{
 					"name": "NewCube1",
 					"origin": [-5.5, 10, 0],
 					"color": 0,
-					"children": [120]
+					"children": [118]
 				},
 				{
 					"name": "NewCube2",
 					"origin": [-3, 13, 5],
 					"color": 0,
-					"children": [121]
+					"children": [119]
 				},
 				{
 					"name": "NewCube3",
 					"origin": [-4, 12, 4],
 					"color": 0,
-					"children": [122]
+					"children": [120]
 				},
 				{
 					"name": "NewCube4",
 					"origin": [-5, 13, 3],
 					"color": 0,
-					"children": [123]
+					"children": [121]
 				},
 				{
 					"name": "NewCube5",
 					"origin": [-5, 12, 1],
 					"color": 0,
-					"children": [124]
+					"children": [122]
 				},
 				{
 					"name": "NewCube6",
 					"origin": [-5, 10, -1],
 					"color": 0,
-					"children": [125]
+					"children": [123]
 				},
 				{
 					"name": "NewCube7",
 					"origin": [0, 12, 5],
 					"color": 0,
-					"children": [126]
+					"children": [124]
 				},
 				{
 					"name": "NewCube8",
 					"origin": [-3, 8, 4],
 					"color": 0,
-					"children": [127]
+					"children": [125]
 				},
 				{
 					"name": "NewCube9",
 					"origin": [-4, 11, 4],
 					"color": 0,
-					"children": [128]
+					"children": [126]
 				},
 				{
 					"name": "NewCube10",
 					"origin": [-5, 11, 3],
 					"color": 0,
-					"children": [129]
+					"children": [127]
 				},
 				{
 					"name": "NewCube11",
 					"origin": [-5, 10, 0],
 					"color": 0,
-					"children": [130]
+					"children": [128]
 				},
 				{
 					"name": "NewCube12",
 					"origin": [-1, 14, 5],
 					"color": 0,
-					"children": [131]
+					"children": [129]
 				},
 				{
 					"name": "NewCube13",
 					"origin": [-5, 8, 3],
 					"color": 0,
-					"children": [132]
+					"children": [130]
 				},
 				{
 					"name": "NewCube14",
 					"origin": [-3, 7, 4],
 					"color": 0,
-					"children": [133]
+					"children": [131]
 				},
 				{
 					"name": "NewCube15",
 					"origin": [-4, 7, 3],
 					"color": 0,
-					"children": [134]
+					"children": [132]
 				},
 				{
 					"name": "NewCube16",
 					"origin": [-5, 7, 1],
 					"color": 0,
-					"children": [135]
+					"children": [133]
 				},
 				{
 					"name": "NewCube17",
 					"origin": [0, 7, 5],
 					"color": 0,
-					"children": [136]
+					"children": [134]
 				},
 				{
 					"name": "NewCube18",
 					"origin": [1, 13, 5],
 					"color": 0,
-					"children": [137]
+					"children": [135]
 				},
 				{
 					"name": "NewCube2",
 					"origin": [-4.5, 11, 4],
 					"color": 0,
-					"children": [138]
+					"children": [136]
 				},
 				{
 					"name": "NewCube21",
 					"origin": [-4.5, 12, 4],
 					"color": 0,
-					"children": [139]
+					"children": [137]
 				},
 				{
 					"name": "NewCube22",
 					"origin": [-4.5, 8, 4],
 					"color": 0,
-					"children": [140]
+					"children": [138]
 				},
 				{
 					"name": "NewCube23",
 					"origin": [-5.5, 10, 2],
 					"color": 0,
-					"children": [141]
+					"children": [139]
 				},
 				{
 					"name": "NewCube3",
 					"origin": [-5.5, 9, 2],
 					"color": 0,
-					"children": [142]
+					"children": [140]
 				},
 				{
 					"name": "NewCube24",
 					"origin": [-5, 11, 0],
 					"color": 0,
-					"children": [143]
+					"children": [141]
 				},
 				{
 					"name": "NewCube25",
 					"origin": [-5.5, 9, 0],
 					"color": 0,
-					"children": [144]
+					"children": [142]
 				},
 				{
 					"name": "NewCube26",
 					"origin": [-2, 12, 5],
 					"color": 0,
-					"children": [145]
+					"children": [143]
 				},
 				{
 					"name": "NewCube31",
 					"origin": [-2, 10, 5],
 					"color": 0,
-					"children": [146]
+					"children": [144]
 				},
 				{
 					"name": "NewCube32",
 					"origin": [0, 9, 5],
 					"color": 0,
-					"children": [147]
+					"children": [145]
 				},
 				{
 					"name": "NewCube4",
 					"origin": [0, 8, 5],
 					"color": 0,
-					"children": [148]
+					"children": [146]
 				},
 				{
 					"name": "NewCube5",
 					"origin": [-1, 8, 5],
 					"color": 0,
-					"children": [149]
+					"children": [147]
 				},
 				{
 					"name": "NewCube41",
 					"origin": [-3, 10, 5],
 					"color": 0,
-					"children": [150]
+					"children": [148]
 				},
 				{
 					"name": "NewCube51",
 					"origin": [-3, 8, 5],
 					"color": 0,
-					"children": [151]
+					"children": [149]
 				}
 			]
 		},
@@ -3086,204 +3055,204 @@
 			"origin": [0, 16, 0],
 			"color": 0,
 			"children": [
-				152,
+				150,
 				{
 					"name": "NewCube",
 					"origin": [-5.5, 11.5, 2],
 					"color": 0,
-					"children": [153]
+					"children": [151]
 				},
 				{
 					"name": "NewCube1",
 					"origin": [-5.5, 10, 0],
 					"color": 0,
-					"children": [154]
+					"children": [152]
 				},
 				{
 					"name": "NewCube2",
 					"origin": [-3, 13, 5],
 					"color": 0,
-					"children": [155]
+					"children": [153]
 				},
 				{
 					"name": "NewCube3",
 					"origin": [-4, 12, 4],
 					"color": 0,
-					"children": [156]
+					"children": [154]
 				},
 				{
 					"name": "NewCube4",
 					"origin": [-5, 13, 3],
 					"color": 0,
-					"children": [157]
+					"children": [155]
 				},
 				{
 					"name": "NewCube5",
 					"origin": [-5, 12, 1],
 					"color": 0,
-					"children": [158]
+					"children": [156]
 				},
 				{
 					"name": "NewCube6",
 					"origin": [-5, 10, -1],
 					"color": 0,
-					"children": [159]
+					"children": [157]
 				},
 				{
 					"name": "NewCube7",
 					"origin": [0, 12, 5],
 					"color": 0,
-					"children": [160]
+					"children": [158]
 				},
 				{
 					"name": "NewCube8",
 					"origin": [-3, 8, 4],
 					"color": 0,
-					"children": [161]
+					"children": [159]
 				},
 				{
 					"name": "NewCube9",
 					"origin": [-4, 11, 4],
 					"color": 0,
-					"children": [162]
+					"children": [160]
 				},
 				{
 					"name": "NewCube10",
 					"origin": [-5, 11, 3],
 					"color": 0,
-					"children": [163]
+					"children": [161]
 				},
 				{
 					"name": "NewCube11",
 					"origin": [-5, 10, 0],
 					"color": 0,
-					"children": [164]
+					"children": [162]
 				},
 				{
 					"name": "NewCube12",
 					"origin": [-1, 14, 5],
 					"color": 0,
-					"children": [165]
+					"children": [163]
 				},
 				{
 					"name": "NewCube13",
 					"origin": [-5, 8, 3],
 					"color": 0,
-					"children": [166]
+					"children": [164]
 				},
 				{
 					"name": "NewCube14",
 					"origin": [-3, 7, 4],
 					"color": 0,
-					"children": [167]
+					"children": [165]
 				},
 				{
 					"name": "NewCube15",
 					"origin": [-4, 7, 3],
 					"color": 0,
-					"children": [168]
+					"children": [166]
 				},
 				{
 					"name": "NewCube16",
 					"origin": [-5, 7, 1],
 					"color": 0,
-					"children": [169]
+					"children": [167]
 				},
 				{
 					"name": "NewCube17",
 					"origin": [0, 7, 5],
 					"color": 0,
-					"children": [170]
+					"children": [168]
 				},
 				{
 					"name": "NewCube18",
 					"origin": [1, 13, 5],
 					"color": 0,
-					"children": [171]
+					"children": [169]
 				},
 				{
 					"name": "NewCube2",
 					"origin": [-4.5, 11, 4],
 					"color": 0,
-					"children": [172]
+					"children": [170]
 				},
 				{
 					"name": "NewCube21",
 					"origin": [-4.5, 12, 4],
 					"color": 0,
-					"children": [173]
+					"children": [171]
 				},
 				{
 					"name": "NewCube22",
 					"origin": [-4.5, 8, 4],
 					"color": 0,
-					"children": [174]
+					"children": [172]
 				},
 				{
 					"name": "NewCube23",
 					"origin": [-5.5, 10, 2],
 					"color": 0,
-					"children": [175]
+					"children": [173]
 				},
 				{
 					"name": "NewCube3",
 					"origin": [-5.5, 9, 2],
 					"color": 0,
-					"children": [176]
+					"children": [174]
 				},
 				{
 					"name": "NewCube24",
 					"origin": [-5, 11, 0],
 					"color": 0,
-					"children": [177]
+					"children": [175]
 				},
 				{
 					"name": "NewCube25",
 					"origin": [-5.5, 9, 0],
 					"color": 0,
-					"children": [178]
+					"children": [176]
 				},
 				{
 					"name": "NewCube26",
 					"origin": [-2, 12, 5],
 					"color": 0,
-					"children": [179]
+					"children": [177]
 				},
 				{
 					"name": "NewCube31",
 					"origin": [-2, 10, 5],
 					"color": 0,
-					"children": [180]
+					"children": [178]
 				},
 				{
 					"name": "NewCube32",
 					"origin": [0, 9, 5],
 					"color": 0,
-					"children": [181]
+					"children": [179]
 				},
 				{
 					"name": "NewCube4",
 					"origin": [0, 8, 5],
 					"color": 0,
-					"children": [182]
+					"children": [180]
 				},
 				{
 					"name": "NewCube5",
 					"origin": [-1, 8, 5],
 					"color": 0,
-					"children": [183]
+					"children": [181]
 				},
 				{
 					"name": "NewCube41",
 					"origin": [-3, 10, 5],
 					"color": 0,
-					"children": [184]
+					"children": [182]
 				},
 				{
 					"name": "NewCube51",
 					"origin": [-3, 8, 5],
 					"color": 0,
-					"children": [185]
+					"children": [183]
 				}
 			]
 		}

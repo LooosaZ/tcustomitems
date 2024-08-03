@@ -11,6 +11,7 @@ import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.event.ScreenEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -50,9 +51,12 @@ public class TCustomItems {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.KILLEE_EGG_BED.get(),RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.LEIA_EGG_BED.get(),RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.MADELINE_EGG_BED.get(),RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PASTEL_EGG_BED.get(),RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.PIAU_EGG_BED.get(),RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PUCA_EGG_BED.get(),RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.SONIA_EGG_BED.get(),RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.TEXAS_EGG_BED.get(),RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.NICKI_EGG_BED.get(),RenderType.translucent());
 
     }
 

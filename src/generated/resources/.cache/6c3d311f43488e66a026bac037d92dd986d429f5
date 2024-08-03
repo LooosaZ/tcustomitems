@@ -1,4 +1,4 @@
-// 1.20.1	2024-07-31T17:51:52.8215224	Item Models: tcustomitems
+// 1.20.1	2024-08-01T22:23:54.9549989	Item Models: tcustomitems
 79b33f22e459037d42e3ec764a1434f32535631d assets/tcustomitems/models/item/loosaz_boots.json
 e45bb274a182794ad92f4acb69e2e5ebfe63b8d6 assets/tcustomitems/models/item/loosaz_boots_amethyst_trim.json
 c08f8e68b6250e51f133cf471b07e3075a86a84a assets/tcustomitems/models/item/loosaz_boots_copper_trim.json
@@ -43,5 +43,5 @@ fbdcf83983721a8deda03bdcde0f1faa0196f3a6 assets/tcustomitems/models/item/loosaz_
 912a04509a1b824a37ecbc41edd6aace88288576 assets/tcustomitems/models/item/loosaz_leggings_netherite_trim.json
 7407cc390550ee032b892543d0258b4702300f25 assets/tcustomitems/models/item/loosaz_leggings_quartz_trim.json
 d6d9d3b854876badfc92906c474ca28cbddb087b assets/tcustomitems/models/item/loosaz_leggings_redstone_trim.json
-95a2ae32a4d0ffdc15628173d69651b34bde4356 assets/tcustomitems/models/item/loosaz_sword.json
+453e7aa3ba035e925c7ed7816f32dba7314e4236 assets/tcustomitems/models/item/loosaz_sword_1.json
 20a6a094694bcc4abd8c65b3a3511119db75eab2 assets/tcustomitems/models/item/sapphire.json
