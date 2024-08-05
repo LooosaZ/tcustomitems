@@ -18,7 +18,7 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> LOOSAZ_SWORD = ITEMS.register("loosaz_sword_1",
-            () -> new SwordItem(ModToolTiers.SAPPHIRE, 30, 2, new Item.Properties().fireResistant()));
+            () -> new SwordItem(ModToolTiers.SAPPHIRE, 20, -2, new Item.Properties().fireResistant()));
 
     public static final RegistryObject<Item> LOOSAZ_HELMET = ITEMS.register("loosaz_helmet",
             () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET, new Item.Properties().fireResistant()));
