@@ -38,6 +38,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.NICKI_EGG_BED.get());
         this.dropSelf(ModBlocks.PUCA_EGG_BED.get());
         this.dropSelf(ModBlocks.PASTEL_EGG_BED.get());
+        this.dropSelf(ModBlocks.IRIS_EGG_BED.get());
+        this.dropSelf(ModBlocks.DELILAH_EGG_BED.get());
+        this.dropSelf(ModBlocks.ACE_EGG_BED.get());
+        this.dropSelf(ModBlocks.PARZIVAL_EGG_BED.get());
 
 //        this.add(ModBlocks.SAPPHIRE_ORE.get(),
 //                block -> createCopperLikeOreDrops(ModBlocks.SAPPHIRE_ORE.get(), ModItems.RAW_SAPPHIRE.get()));

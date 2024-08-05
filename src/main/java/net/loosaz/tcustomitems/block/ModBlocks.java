@@ -60,6 +60,18 @@ public class ModBlocks {
     public static final RegistryObject<Block> PASTEL_EGG_BED = registerBlock("pastel_egg_bed",
             () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED)
                     .noOcclusion().dynamicShape().destroyTime(0.8f)));
+    public static final RegistryObject<Block> IRIS_EGG_BED = registerBlock("iris_egg_bed",
+            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED)
+                    .noOcclusion().dynamicShape().destroyTime(0.8f)));
+    public static final RegistryObject<Block> DELILAH_EGG_BED = registerBlock("delilah_egg_bed",
+            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED)
+                    .noOcclusion().dynamicShape().destroyTime(0.8f)));
+    public static final RegistryObject<Block> ACE_EGG_BED = registerBlock("ace_egg_bed",
+            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED)
+                    .noOcclusion().dynamicShape().destroyTime(0.8f)));
+    public static final RegistryObject<Block> PARZIVAL_EGG_BED = registerBlock("parzival_egg_bed",
+            () -> new EggBed(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.DECORATED_POT_CRACKED)
+                    .noOcclusion().dynamicShape().destroyTime(0.8f)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

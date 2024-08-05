@@ -1,12 +1,16 @@
-// 1.20.1	2024-08-03T12:23:33.16773	Loot Tables
+// 1.20.1	2024-08-05T11:48:18.3432185	Loot Tables
+5e249c6ca5e46fa3ac178a69d448cd3430cbe1ae data/tcustomitems/loot_tables/blocks/ace_egg_bed.json
 9580f3225b8cada352f301ff729c303ede1519f0 data/tcustomitems/loot_tables/blocks/archelon_egg_bed.json
 fbe180ba7e7598002b900c4557358721838d4638 data/tcustomitems/loot_tables/blocks/blackstar_egg_bed.json
 b773f8faef7375e9362347dc2821e37def36dff5 data/tcustomitems/loot_tables/blocks/darling_egg_bed.json
+47db9fd8eb7616cf1e835dc26d8615689723d7ff data/tcustomitems/loot_tables/blocks/delilah_egg_bed.json
 835131e9c27b15030b718a9b16c2caf36dbfe692 data/tcustomitems/loot_tables/blocks/hazel_egg_bed.json
+815c4966ccd253811bc6a4c3ff1e693e0ab56ce2 data/tcustomitems/loot_tables/blocks/iris_egg_bed.json
 0d0c962e72b0a9b51a0aa2b8e386facd89329fc4 data/tcustomitems/loot_tables/blocks/killee_egg_bed.json
 4a2575b7ea72a9da3ba1581d58297587bd6edea1 data/tcustomitems/loot_tables/blocks/leia_egg_bed.json
 19dad538c6cfba45b17f8adecd3c229bec4cf85e data/tcustomitems/loot_tables/blocks/madeline_egg_bed.json
 b3ec5d02c55e69a6dacfbb0b15e0b75d61501c1f data/tcustomitems/loot_tables/blocks/nicki_egg_bed.json
+bab3163cd38e9e213ab10feeaeb5e30f2084e4f7 data/tcustomitems/loot_tables/blocks/parzival_egg_bed.json
 928c812d32eeb31ef470cf340a22f7ab22b44f70 data/tcustomitems/loot_tables/blocks/pastel_egg_bed.json
 f5876215dec081b2613a6e5eac571547a745464c data/tcustomitems/loot_tables/blocks/piau_egg_bed.json
 761518471d1b9db38aca5245c94eb8560493fe3e data/tcustomitems/loot_tables/blocks/puca_egg_bed.json

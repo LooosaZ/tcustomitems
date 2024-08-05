@@ -44,20 +44,23 @@ public class TCustomItems {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.ARCHELON_EGG_BED.get(),RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BLACKSTAR_EGG_BED.get(),RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DARLING_EGG_BED.get(),RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.HAZEL_EGG_BED.get(),RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.KILLEE_EGG_BED.get(),RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.LEIA_EGG_BED.get(),RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.MADELINE_EGG_BED.get(),RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PASTEL_EGG_BED.get(),RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PIAU_EGG_BED.get(),RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PUCA_EGG_BED.get(),RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.SONIA_EGG_BED.get(),RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.TEXAS_EGG_BED.get(),RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.NICKI_EGG_BED.get(),RenderType.translucent());
-
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.ACE_EGG_BED.get(),RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.ARCHELON_EGG_BED.get(),RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BLACKSTAR_EGG_BED.get(),RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DARLING_EGG_BED.get(),RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DELILAH_EGG_BED.get(),RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.HAZEL_EGG_BED.get(),RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.IRIS_EGG_BED.get(),RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.KILLEE_EGG_BED.get(),RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.LEIA_EGG_BED.get(),RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.MADELINE_EGG_BED.get(),RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PASTEL_EGG_BED.get(),RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PARZIVAL_EGG_BED.get(),RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PIAU_EGG_BED.get(),RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PUCA_EGG_BED.get(),RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.SONIA_EGG_BED.get(),RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.TEXAS_EGG_BED.get(),RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.NICKI_EGG_BED.get(),RenderType.cutout());
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {

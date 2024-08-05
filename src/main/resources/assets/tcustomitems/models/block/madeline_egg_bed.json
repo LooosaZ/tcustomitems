@@ -3292,39 +3292,39 @@
 					"rotation": [0, 0, 245],
 					"color": 0,
 					"children": [172]
-				}
-			]
-		},
-		{
-			"name": "sprinkles",
-			"origin": [8, 8, 8],
-			"color": 0,
-			"children": [
-				{
-					"name": "s1",
-					"origin": [0, 15, -4],
-					"rotation": [-180, -355, 180],
-					"color": 0,
-					"children": [173, 174, 175, 176, 177, 178]
 				},
 				{
-					"name": "s2",
-					"origin": [0, 15, -4],
-					"rotation": [-180, -355, 180],
+					"name": "sprinkles",
+					"origin": [8, 8, 8],
 					"color": 0,
-					"children": [179, 180, 181, 182, 183, 184, 185]
-				},
-				{
-					"name": "s3",
-					"origin": [0, 26, -9],
-					"color": 0,
-					"children": [186, 187, 188, 189, 190, 191]
-				},
-				{
-					"name": "s4",
-					"origin": [0, 26, -9],
-					"color": 0,
-					"children": [192, 193, 194, 195, 196, 197, 198]
+					"children": [
+						{
+							"name": "s1",
+							"origin": [0, 15, -4],
+							"rotation": [-180, -355, 180],
+							"color": 0,
+							"children": [173, 174, 175, 176, 177, 178]
+						},
+						{
+							"name": "s2",
+							"origin": [0, 15, -4],
+							"rotation": [-180, -355, 180],
+							"color": 0,
+							"children": [179, 180, 181, 182, 183, 184, 185]
+						},
+						{
+							"name": "s3",
+							"origin": [0, 26, -9],
+							"color": 0,
+							"children": [186, 187, 188, 189, 190, 191]
+						},
+						{
+							"name": "s4",
+							"origin": [0, 26, -9],
+							"color": 0,
+							"children": [192, 193, 194, 195, 196, 197, 198]
+						}
+					]
 				}
 			]
 		}

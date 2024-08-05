@@ -21,15 +21,19 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
 
                         //items that will show up on the creative BEDS_TAB tab
+                        pOutput.accept(ModBlocks.ACE_EGG_BED.get());
                         pOutput.accept(ModBlocks.ARCHELON_EGG_BED.get());
                         pOutput.accept(ModBlocks.BLACKSTAR_EGG_BED.get());
                         pOutput.accept(ModBlocks.DARLING_EGG_BED.get());
+                        pOutput.accept(ModBlocks.DELILAH_EGG_BED.get());
                         pOutput.accept(ModBlocks.HAZEL_EGG_BED.get());
+                        pOutput.accept(ModBlocks.IRIS_EGG_BED.get());
                         pOutput.accept(ModBlocks.KILLEE_EGG_BED.get());
                         pOutput.accept(ModBlocks.LEIA_EGG_BED.get());
                         pOutput.accept(ModBlocks.MADELINE_EGG_BED.get());
-                        pOutput.accept(ModBlocks.PASTEL_EGG_BED.get());
                         pOutput.accept(ModBlocks.NICKI_EGG_BED.get());
+                        pOutput.accept(ModBlocks.PARZIVAL_EGG_BED.get());
+                        pOutput.accept(ModBlocks.PASTEL_EGG_BED.get());
                         pOutput.accept(ModBlocks.PIAU_EGG_BED.get());
                         pOutput.accept(ModBlocks.PUCA_EGG_BED.get());
                         pOutput.accept(ModBlocks.SONIA_EGG_BED.get());
