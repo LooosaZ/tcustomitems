@@ -43,6 +43,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         simpleItem(ModItems.SAPPHIRE);
+        simpleItem(ModItems.QUEST_TOKEN);
 
 
         handheldItem(ModItems.LOOSAZ_SWORD);

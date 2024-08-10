@@ -15,6 +15,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> QUEST_TOKEN = ITEMS.register("quest_token",
+            () -> new Item(new Item.Properties()));
 
 
     public static final RegistryObject<Item> LOOSAZ_SWORD = ITEMS.register("loosaz_sword_1",
