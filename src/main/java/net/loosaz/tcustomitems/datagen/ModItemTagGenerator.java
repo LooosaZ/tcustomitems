@@ -27,5 +27,6 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.LOOSAZ_BOOTS.get());
         this.tag(ItemTags.SWORDS)
                 .add(ModItems.LOOSAZ_SWORD.get());
+                ModItems.LADIIZ_KARAMBIT.get();
     }
 }

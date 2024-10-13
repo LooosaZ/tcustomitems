@@ -49,6 +49,7 @@ public class ModCreativeModTabs {
 
                         //items that will show up on the creative ITEMS_TAB tab
                         pOutput.accept(ModItems.LOOSAZ_SWORD.get());
+                        pOutput.accept(ModItems.LADIIZ_KARAMBIT.get());
                         pOutput.accept(ModItems.QUEST_TOKEN.get());
 //                        pOutput.accept(ModItems.LOOSAZ_HELMET.get());
 //                        pOutput.accept(ModItems.LOOSAZ_CHESTPLATE.get());

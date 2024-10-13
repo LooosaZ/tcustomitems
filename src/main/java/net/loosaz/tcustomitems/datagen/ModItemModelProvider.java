@@ -47,6 +47,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
 
         handheldItem(ModItems.LOOSAZ_SWORD);
+        handheldItem(ModItems.LADIIZ_KARAMBIT);
 
         trimmedArmorItem(ModItems.LOOSAZ_HELMET);
         trimmedArmorItem(ModItems.LOOSAZ_CHESTPLATE);
