@@ -5,18 +5,15 @@ import net.loosaz.tcustomitems.block.ModBlocks;
 import net.loosaz.tcustomitems.item.ModCreativeModTabs;
 import net.loosaz.tcustomitems.item.ModItems;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
-import net.minecraft.client.renderer.ItemModelShaper;
 import net.minecraft.client.renderer.RenderType;
-import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.level.block.Block;
 import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.client.event.ScreenEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -44,24 +41,27 @@ public class TCustomItems {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.ACE_EGG_BED.get(),RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.ARCHELON_EGG_BED.get(),RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BLACKSTAR_EGG_BED.get(),RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DARLING_EGG_BED.get(),RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.DELILAH_EGG_BED.get(),RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.HAZEL_EGG_BED.get(),RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.IRIS_EGG_BED.get(),RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.KILLEE_EGG_BED.get(),RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.LEIA_EGG_BED.get(),RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.MADELINE_EGG_BED.get(),RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PASTEL_EGG_BED.get(),RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PARZIVAL_EGG_BED.get(),RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PIAU_EGG_BED.get(),RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PUCA_EGG_BED.get(),RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.SONIA_EGG_BED.get(),RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.TEXAS_EGG_BED.get(),RenderType.cutout());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.NICKI_EGG_BED.get(),RenderType.cutout());
+        DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> () -> {
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.ACE_EGG_BED.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.ARCHELON_EGG_BED.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.BLACKSTAR_EGG_BED.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.DARLING_EGG_BED.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.DELILAH_EGG_BED.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.HAZEL_EGG_BED.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.IRIS_EGG_BED.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.KILLEE_EGG_BED.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.LEIA_EGG_BED.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.MADELINE_EGG_BED.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.PASTEL_EGG_BED.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.PARZIVAL_EGG_BED.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.PIAU_EGG_BED.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.PUCA_EGG_BED.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.SONIA_EGG_BED.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.TEXAS_EGG_BED.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.NICKI_EGG_BED.get(), RenderType.cutout());
+        });
     }
+
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {

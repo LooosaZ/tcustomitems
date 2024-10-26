@@ -14,7 +14,7 @@ public class LadiizKarambit extends SwordItem {
 
     @Override
     public boolean hurtEnemy(ItemStack pStack, LivingEntity pTarget, LivingEntity pAttacker) {
-        pTarget.addEffect(new MobEffectInstance(MobEffects.WITHER, 200), pAttacker);
+        pTarget.addEffect(new MobEffectInstance(MobEffects.WITHER, 200, 1), pAttacker);
         return super.hurtEnemy(pStack, pTarget, pAttacker);
     }
 }
