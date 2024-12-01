@@ -2,7 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [96, 96],
 	"textures": {
-		"1": "tcustomitems:block/blackstar_egg_bed"
+		"1": "tcustomitems:block/blackstar_egg_bed",
+		"particle": "minecraft:block/oak_planks"
 	},
 	"elements": [
 		{
@@ -1446,9 +1447,9 @@
 		},
 		{
 			"name": "Emblem",
-			"from": [2.6, 7.33, 23.625],
-			"to": [6.6, 10.33, 23.725],
-			"rotation": {"angle": 45, "axis": "x", "origin": [4.575, 7.58, 18.15]},
+			"from": [2.85, 8.08, 24.375],
+			"to": [5.85, 10.08, 24.475],
+			"rotation": {"angle": 45, "axis": "x", "origin": [4.825, 8.33, 18.9]},
 			"faces": {
 				"north": {"uv": [14, 14.5, 16, 16], "texture": "#1"},
 				"east": {"uv": [13.83333, 14.5, 14, 16], "texture": "#1"},

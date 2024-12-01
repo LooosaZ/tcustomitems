@@ -3,7 +3,7 @@
 	"texture_size": [134, 134],
 	"textures": {
 		"2": "tcustomitems:block/parzival_egg_bed",
-		"particle": "block/oak_planks"
+		"particle": "minecraft:block/oak_planks"
 	},
 	"elements": [
 		{
@@ -1742,7 +1742,7 @@
 		{
 			"name": "New Cube (4)",
 			"from": [4, 15.75, 6.5],
-			"to": [11.75, 16.95, 12.5],
+			"to": [11.75, 16.75, 12.5],
 			"rotation": {"angle": 45, "axis": "x", "origin": [7.75, 14.75, 8.25]},
 			"faces": {
 				"north": {"uv": [9.31343, 6.92537, 10.14925, 7.04478], "texture": "#2"},
