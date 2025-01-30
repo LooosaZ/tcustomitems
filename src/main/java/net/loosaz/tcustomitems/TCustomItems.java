@@ -43,6 +43,7 @@ public class TCustomItems {
     private void commonSetup(final FMLCommonSetupEvent event) {
         DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> () -> {
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.ACE_EGG_BED.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.APPLE_EGG_BED.get(), RenderType.cutout());
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.ARCHELON_EGG_BED.get(), RenderType.cutout());
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.BLACKSTAR_EGG_BED.get(), RenderType.cutout());
             ItemBlockRenderTypes.setRenderLayer(ModBlocks.DARLING_EGG_BED.get(), RenderType.cutout());

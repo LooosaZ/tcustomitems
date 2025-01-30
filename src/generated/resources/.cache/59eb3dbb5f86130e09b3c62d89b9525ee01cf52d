@@ -1,5 +1,6 @@
-// 1.20.1	2024-08-05T11:48:18.3432185	Loot Tables
+// 1.20.1	2025-01-30T15:58:58.8052139	Loot Tables
 5e249c6ca5e46fa3ac178a69d448cd3430cbe1ae data/tcustomitems/loot_tables/blocks/ace_egg_bed.json
+d97b488aeca3ed401b5d40f6174bb92b84ff3881 data/tcustomitems/loot_tables/blocks/apple_egg_bed.json
 9580f3225b8cada352f301ff729c303ede1519f0 data/tcustomitems/loot_tables/blocks/archelon_egg_bed.json
 fbe180ba7e7598002b900c4557358721838d4638 data/tcustomitems/loot_tables/blocks/blackstar_egg_bed.json
 b773f8faef7375e9362347dc2821e37def36dff5 data/tcustomitems/loot_tables/blocks/darling_egg_bed.json

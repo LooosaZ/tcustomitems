@@ -22,7 +22,7 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> LOOSAZ_SWORD = ITEMS.register("loosaz_sword_1",
-            () -> new LoosaZSword(ModToolTiers.SAPPHIRE, 20, -2, new Item.Properties().fireResistant()));
+            () -> new LoosaZSword(ModToolTiers.SAPPHIRE, 661, -2, new Item.Properties().fireResistant()));
     public static final RegistryObject<Item> LADIIZ_KARAMBIT = ITEMS.register("ladiiz_karambit",
             () -> new LadiizKarambit(ModToolTiers.SAPPHIRE, 9, -2, new Item.Properties()));
 

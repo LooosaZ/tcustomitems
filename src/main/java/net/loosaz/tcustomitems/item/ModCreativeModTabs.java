@@ -22,6 +22,7 @@ public class ModCreativeModTabs {
 
                         //items that will show up on the creative BEDS_TAB tab
                         pOutput.accept(ModBlocks.ACE_EGG_BED.get());
+                        pOutput.accept(ModBlocks.APPLE_EGG_BED.get());
                         pOutput.accept(ModBlocks.ARCHELON_EGG_BED.get());
                         pOutput.accept(ModBlocks.BLACKSTAR_EGG_BED.get());
                         pOutput.accept(ModBlocks.DARLING_EGG_BED.get());

@@ -11,8 +11,8 @@ import net.minecraftforge.client.model.IModelBuilder;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    SAPPHIRE("loosaz",26, new int[]{ 7, 10, 9, 6 }, 25,
-            SoundEvents.ARMOR_EQUIP_NETHERITE, 5f, 0.2f, () -> Ingredient.of(ModItems.SAPPHIRE.get()));
+    SAPPHIRE("loosaz",26, new int[]{ 666, 666, 666, 666 }, 25,
+            SoundEvents.ARMOR_EQUIP_NETHERITE, 666f, 0.666f, () -> Ingredient.of(ModItems.SAPPHIRE.get()));
 
     private final String name;
     private final int durabilityMultiplier;
@@ -23,7 +23,7 @@ public enum ModArmorMaterials implements ArmorMaterial {
     private final float knockbackResistance;
     private final Supplier<Ingredient> repairIngredient;
 
-    private static final int[] BASE_DURABILITY = new int[] {11, 16, 16, 13};
+    private static final int[] BASE_DURABILITY = new int[] {666, 666, 666, 666};
 
 
     ModArmorMaterials(String name, int durabilityMultiplier, int[] protectionAmounts, int enchantmentValue, SoundEvent equipSound,

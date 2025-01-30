@@ -41,6 +41,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.IRIS_EGG_BED.get());
         this.dropSelf(ModBlocks.DELILAH_EGG_BED.get());
         this.dropSelf(ModBlocks.ACE_EGG_BED.get());
+        this.dropSelf(ModBlocks.APPLE_EGG_BED.get());
         this.dropSelf(ModBlocks.PARZIVAL_EGG_BED.get());
 
 //        this.add(ModBlocks.SAPPHIRE_ORE.get(),
